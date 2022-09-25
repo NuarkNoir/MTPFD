@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+hr {
+    width: 100%;
+    height: .125rem;
+    background: #ccc;
+    border: none;
+    margin: .5rem 0 1rem 0;
+}
+
+.content {
+    width: 100%;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.input-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.log-holder, .input-holder {
+    width: 100%;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+}
+
+#log {
+    height: 300px;
+    max-height: 10%;
+    overflow-y: scroll;
+    margin-bottom: 1rem;
+}
+
+#log::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #aaa;
+}
+
+#log::-webkit-scrollbar-thumb {
+    background: #000;
+}

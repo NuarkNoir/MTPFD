@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The tool is used for decrypting and converting the protected files that are saved in Mathcad format.">
+    <title>MTPFD</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="/pako.min.js"></script>
+    <script src="/app.js"></script>
+</head>
+<body>
+    <div class="content">
+        <h3>Mathcad Protected Files Decoder</h3>
+        <hr>
+        <div class="input-holder">
+            <label for="file">Select your file</label>
+            <input type="file" id="file" accept=".xmcdz">
+        </div>
+        <div class="log-holder">
+            <p>Log:</p>
+            <pre id="log"></pre>
+        </div>
+    </div>
+</body>
+</html>
